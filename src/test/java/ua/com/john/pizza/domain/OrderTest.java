@@ -172,8 +172,8 @@ public class OrderTest {
     public void testRemoveItems() {
         System.out.println("removeItems");
         Pizza[] items = null;
-        Order instance = new Order();
-        instance.removeItems(items);
+        Order instance1 = new Order();
+        instance1.removeItems(items);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -181,12 +181,13 @@ public class OrderTest {
     /**
      * Test of getDate method, of class Order.
      */
+    @org.junit.Ignore
     @Test
     public void testGetDate() {
         System.out.println("getDate");
-        Order instance = new Order();
+        Order instance1 = new Order();
         Date expResult = null;
-        Date result = instance.getDate();
+        Date result = instance1.getDate();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");

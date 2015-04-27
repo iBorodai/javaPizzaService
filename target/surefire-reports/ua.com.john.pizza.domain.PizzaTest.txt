@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: ua.com.john.pizza.it.PizzaDeliveryTest
+Test set: ua.com.john.pizza.domain.PizzaTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.953 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec

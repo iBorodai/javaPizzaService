@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="ua.com.john.pizza.it.PizzaDeliveryTest" time="0.952" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="ua.com.john.pizza.domain.PizzaTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
@@ -62,5 +62,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ua.com.john.pizza.it.PizzaDeliveryTest" name="testPizzaDelivery" time="0.002"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testGetPrice" time="0"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testPizza" time="0"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testGetName" time="0"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testGetType" time="0"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testSetName" time="0"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testSetType" time="0.001"/>
+  <testcase classname="ua.com.john.pizza.domain.PizzaTest" name="testSetPrice" time="0.001"/>
 </testsuite>

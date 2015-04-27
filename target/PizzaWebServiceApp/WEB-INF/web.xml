@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+         xmlns="http://xmlms.jsp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:scheamaLocation="http://xmlms.jsp.org/xml/ns/javaee
+            http://xmlms.jsp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <servlet>
+        <servlet-name>pizzaServlet</servlet-name>
+        <servlet-class>ua.com.john.pizza.PizzaController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>pizzaServlet</servlet-name>
+        <url-pattern>/mood</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
+

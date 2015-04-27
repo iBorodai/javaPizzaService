@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+">
+    <bean id="pizza1" class="ua.com.john.pizza.domain.Pizza">
+        <property name="name" value="Meat Pizza"/>
+<!-- WRONG:       <property name="type" value="ua.com.john.pizza.domain.PizzaType.Meat"/>-->
+        <property name="type" value="Meat"/>
+        <property name="price" value="1.99"/>
+    </bean>
+    <bean id="pizza2" class="ua.com.john.pizza.domain.Pizza">
+        <property name="name" value="Vegetarian Pizza"/>
+        <property name="type" value="Vegetarian"/>
+        <property name="price" value="2.99"/>
+    </bean>
+    <bean id="pizza3" class="ua.com.john.pizza.domain.Pizza">
+        <property name="name" value="Sea Pizza"/>
+        <property name="type" value="Sea"/>
+        <property name="price" value="3.99"/>
+    </bean>
+
+</beans>
